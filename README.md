@@ -1,5 +1,10 @@
 # Web Development Porfolio of Kelly McDonald
 
+## Technologies Used:
+- HTML5
+- CSS3
+- Javascript
+
 ## Hero Section:
 
 This section will have some javascripting elememnts like text writing itself or fading in and out as it changes my title from things like "Tech Executive" "Product Officer" "Software Developer" "Startup Maven' etc. 
