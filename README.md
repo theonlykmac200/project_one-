@@ -45,10 +45,15 @@
 |              |              |                                          |     |       |
 
 
-## Technologies Used:
-- HTML5
-- CSS3
-- Javascript
+
+## WireFrame
+
+
+
+<img width="572" alt="Screen Shot 2022-09-28 at 8 11 11 PM" src="https://user-images.githubusercontent.com/112597310/192930158-6b6d61e0-d9c7-4dc5-aaa8-f0a855ec3064.png">
+
+
+
 
 ## Hero Section:
 
@@ -62,17 +67,23 @@ __"Innovation is Rewarded, Execution is Worshipped"__
 
 
 
-## Skills 
+## Program languages and Development Resources logo train
 
 - HTML5
 - CSS3
 - Javascript
 - Python
+- Unity C#
+- Figma
+- Canvas
+- Salesforce
+- Hubspot
+- AI/ML
 - Web3
 - Product Management
 - Revenue and Operations
 - Scaling Early Stage Companies
-- Fund Raising for VC backed organizations
+- Fund Rasing for VC backed Organizations
 
 
 ## About 
@@ -81,6 +92,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 - link to Executive Bio
 - link to Resume
+
+- Addtional Skills
+  - Salesforce
+  - Hubspot
+  - AI/ML
+  - Web3
+  - Product Management
+  - Revenue and Operations
+  - Scaling Early Stage Companies
+  - Fund Rasing for VC backed Organizations
 
 ## Projects
 
@@ -111,3 +132,8 @@ __Linkenin__
 __Twitter__
 __Medium__
 __worldClock API__ / __quoteGenerator API__ / 
+
+## Technologies Used:
+- HTML5
+- CSS3
+- Javascript
