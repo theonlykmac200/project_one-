@@ -137,3 +137,15 @@ __worldClock API__ / __quoteGenerator API__ /
 - HTML5
 - CSS3
 - Javascript
+
+## Additional Libraries Used
+
+section will have any additonal resources used.
+
+## Code Snippet
+
+This will be something fun or cool that I did that I'm proud of or was a big challenge that I accomplished
+
+## Issues and Resolutions
+
+Any hiccups or major issues I encounter along the way.
