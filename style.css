@@ -1,0 +1,168 @@
+/* <div class="nav"></div>
+        <div class="main-container">
+            <div class="hero"></div>
+            <div class="skills"></div>
+            <div class="about"></div>
+            <div class="projects"></div>
+            <div class="contact"></div>
+
+        </div>
+        <div class="footer"></div> */
+
+.nav, .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background-color: lightcyan;
+
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    width: 100%;
+    background-color: lightcyan;
+
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    width: 100%;
+    background-color: lightcyan;
+
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    font-size: 75px;
+    width: 70%;
+    margin-inline: 200px;
+
+}
+.bandw {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    margin: 100px 0 50px 300px
+    
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: lightcyan;
+
+}
+h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 36px;
+    margin: 10px;
+}
+.skill-logos {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-color: lightcyan;
+
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    background-color: lightcyan;
+
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 400px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.contact {
+    height: 600px;
+    width: 100%;
+    background-color: lightcyan;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    margin: 50px;
+    padding: 50px
+}
+#name, #lname, #email, #phone {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+#message-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    width: 700px;
+    margin: 50px
+
+}
+button {
+    height: 50px;
+    width: 200px;
+    margin: 55px;
+
+}
+
+h2 {
+    display: flex;
+    display: row;
+    justify-content: center;
+    height: 250px;
+    width: 30%;
+    margin-top: 150px;
+    font-size: 45px;
+   
+
+}
+
