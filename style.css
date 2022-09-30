@@ -1,6 +1,19 @@
+<<<<<<< HEAD
 body {
     background-color: lightcyan;
 }
+=======
+/* <div class="nav"></div>
+        <div class="main-container">
+            <div class="hero"></div>
+            <div class="skills"></div>
+            <div class="about"></div>
+            <div class="projects"></div>
+            <div class="contact"></div>
+
+        </div>
+        <div class="footer"></div> */
+>>>>>>> refs/remotes/origin/main
 
 .nav, .footer {
     display: flex;
@@ -8,7 +21,11 @@ body {
     justify-content: space-around;
     height: 50px;
     width: 100%;
+<<<<<<< HEAD
 
+=======
+    background-color: lightcyan;
+>>>>>>> refs/remotes/origin/main
 
 }
 .nav-links {
@@ -25,7 +42,11 @@ body {
     flex-direction: column;
     height: 2000px;
     width: 100%;
+<<<<<<< HEAD
 
+=======
+    background-color: lightcyan;
+>>>>>>> refs/remotes/origin/main
 
 }
 .hero {
@@ -33,7 +54,11 @@ body {
     flex-direction: row;
     height: 750px;
     width: 100%;
+<<<<<<< HEAD
 
+=======
+    background-color: lightcyan;
+>>>>>>> refs/remotes/origin/main
 
 }
 .banner {
@@ -53,6 +78,7 @@ body {
     
 }
 
+<<<<<<< HEAD
 marquee, .skills {
     display: flex;
     flex-direction: column;
@@ -60,6 +86,14 @@ marquee, .skills {
     width: 100%;
     font-style: italic;
 
+=======
+.skills {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: lightcyan;
+>>>>>>> refs/remotes/origin/main
 
 }
 h3 {
@@ -74,6 +108,10 @@ h3 {
     flex-direction: row;
     height: 100px;
     justify-content: space-around;
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/main
 }
 
 .about {
@@ -81,31 +119,48 @@ h3 {
     flex-direction: column;
     height: 400px;
     width: 100%;
+<<<<<<< HEAD
     font-size: 22px;
     font-style: italic;
     margin: 10px;
  
+=======
+    background-color: lightcyan;
+>>>>>>> refs/remotes/origin/main
 
 }
 
 
+<<<<<<< HEAD
 .flip-box {
+=======
+.projects {
+>>>>>>> refs/remotes/origin/main
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 600px;
     width: 100%;
+<<<<<<< HEAD
   
 
 }
 
 .flip-box-inner {
+=======
+    background-color: lightcyan;
+
+}
+
+.project-box {
+>>>>>>> refs/remotes/origin/main
     display: flex;
     flex-direction: row;
     height: 250px;
     width: 400px;
     margin: auto;
     border: 1px solid black;
+<<<<<<< HEAD
     background-color: rgb(3, 34, 91);
 }
 .flip-box-front {
@@ -122,14 +177,22 @@ h3 {
     color: azure;
     margin: 10px;
 
+=======
+>>>>>>> refs/remotes/origin/main
 }
 
 .contact {
     height: 600px;
     width: 100%;
+<<<<<<< HEAD
   
 }
 /* nead to fix contact portion */
+=======
+    background-color: lightcyan;
+}
+
+>>>>>>> refs/remotes/origin/main
 .contact {
     display: flex;
     flex-direction: row;
@@ -154,7 +217,11 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+<<<<<<< HEAD
     height: 150px;
+=======
+    height: 300px;
+>>>>>>> refs/remotes/origin/main
     width: 700px;
     margin: 50px
 
@@ -162,7 +229,11 @@ h3 {
 button {
     height: 50px;
     width: 200px;
+<<<<<<< HEAD
     margin: 10px 0 10px 55px;
+=======
+    margin: 55px;
+>>>>>>> refs/remotes/origin/main
 
 }
 
@@ -174,8 +245,15 @@ h2 {
     width: 30%;
     margin-top: 150px;
     font-size: 45px;
+<<<<<<< HEAD
 
 }
 
 /* media query work */
 
+=======
+   
+
+}
+
+>>>>>>> refs/remotes/origin/main
