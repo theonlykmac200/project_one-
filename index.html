@@ -28,7 +28,11 @@
         <div class="main-container">
             <div class="hero">
                 <div class="banner">
-                    <h1 id="headline">I am a Web Developer<h1>
+                    <div class="wrapper" class ="typing-demo">
+                        <div>
+                            <span class = "typing-demo">I am a Web Developer</span>
+                        </div>
+                    </div>
                     <div class = "myimg">
                         <img class = "bandw" src="my_photo.jpg">
                     </div>                  
@@ -67,62 +71,73 @@
             </div>
             <div class="flip-box">
                 <section class="flip-box-inner" id="proj_one">
-                    <div class ="flip-box-front">
-                       <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit esse deleniti optio impedit corrupti quam aspernatur. Adipisci ipsa illum optio aliquam, quisquam esse voluptas quo, iusto expedita rem voluptatem ab!<p>
+                    <div class ="flip-box-front"hidden>
+                       <h5>"Hey Girl" secret number game</h5>
                     </div>
-                    <div class = "flip-box-back" hidden>
-                        <p class ="project-desc-back">Cool logo here!</p>
+                    <div class = "flip-box-back">
+                        <p class ="project-desc-back" >A fun game featuring prompts and alerts.  Build in a single object and features the one and only Ryan Gossling; who provides postive affermations as players guesses the secret number.</p>
                     </div>
                 </section>
                 <section class="flip-box-inner" id="proj_two">
-                    <div class ="flip-box-front">
-                       <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit esse deleniti optio impedit corrupti quam aspernatur. Adipisci ipsa illum optio aliquam, quisquam esse voluptas quo, iusto expedita rem voluptatem ab!<p>
+                    <div class ="flip-box-front" hidden>
+                        <h5>"What's the weather like?"</h5>
                     </div>
-                    <div class = "flip-box-back"hidden>
-                        <p class ="project-desc-back">Cool logo here!</p>
+                    <div class = "flip-box-back">
+                        <p class ="project-desc-back">Showcaseing the work with OpenWeather's Api this program tells the end-user what the weather is like for a particular named city<p>
                     </div>
                 </section>
                 <section class="flip-box-inner" id="proj_three">
-                    <div class ="flip-box-front">
-                       <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit esse deleniti optio impedit corrupti quam aspernatur. Adipisci ipsa illum optio aliquam, quisquam esse voluptas quo, iusto expedita rem voluptatem ab!<p>
+                    <div class ="flip-box-front"hidden>
+                       <h5>Programmers Memory Game</h5>
                     </div>
-                    <div class = "flip-box-back" hidden>
-                        <p class ="project-desc-back">Cool logo here!</p>
+                    <div class = "flip-box-back" >
+                        <p class ="project-desc-back">Inspired by the classic children's game memory. Showcases work with Javascript and Randomization</p>
                     </div>
                 </section>
                 <section class="flip-box-inner" id="proj_four">
-                    <div class ="flip-box-front">
-                       <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit esse deleniti optio impedit corrupti quam aspernatur. Adipisci ipsa illum optio aliquam, quisquam esse voluptas quo, iusto expedita rem voluptatem ab!<p>
+                    <div class ="flip-box-front" hidden>
+                       <h5>Joke Teller<h5>
                     </div>
-                    <div class = "flip-box-back" hidden>
-                        <p class ="project-desc-back">Cool logo here!</p>
+                    <div class = "flip-box-back" >
+                        <p class ="project-desc-back">A surefire way to make you smile, this project worked with connecting APIs and sound controls</p>
                     </div>
                 </section>
             </div>
 
-        <div class="contact">
-            <!-- form powered by getform.io  *********** need to clear the form post click**************** -->
-            <div class = "contact-wrap">
-                <form action="https://getform.io/f/ead09102-d4fe-4197-b666-ac61b0f9e827" method="POST">
-                    <div class ="contact-form">
-                        <input id = #name placeholder = "First Name" type="text" name="name">
-                        <input id = #lname placeholder = "Last Name" type="text" name="last name">
-                        <input id = #email placeholder = "Email Address" type="email" name="email">
-                        <input id = #phone  placeholder = "Phone Number" type="text" name="phone">
-                    </div>
-                    <div class ="message-box">
-                        <input id= "message-box" type="text" name="message">
-                        <button type="submit">Send</button>
-                    </div>  
-                </form>
+            <div class="contact">
+                <!-- form powered by getform.io  *********** need to clear the form post click**************** -->
+                <div class = "contact-wrap">
+                    <form action="https://getform.io/f/ead09102-d4fe-4197-b666-ac61b0f9e827" method="POST">
+                        <div class ="contact-form">
+                            <input id = #name placeholder = "First Name" type="text" name="name">
+                            <input id = #lname placeholder = "Last Name" type="text" name="last name">
+                            <input id = #email placeholder = "Email Address" type="email" name="email">
+                            <input id = #phone  placeholder = "Phone Number" type="text" name="phone">
+                        </div>
+                        <div class ="message-box">
+                            <input id= "message-box" type="text" name="message">
+                            <button type="submit">Send</button>
+                        </div>  
+                    </form>
+                </div>
+                <div class = "contact-headline">
+                    <h2 id="contact-headline">Get In Touch!</h2>
+                </div>
             </div>
-            <div class = "contact-headline">
-                <h2 id="contact-headline">Get In Touch!</h2>
-            </div>
+            <div class="footer">
+                <div class="social_logos">
+                    <a class ="social_logos" href = "https://github.com/theonlykmac200" target="_blank">
+                        <img class="foot_icons" id="github_icon" src ="/foot_icons/github_icon.png">
+                    </a>
+                    <a class ="social_logos" href = "https://www.linkedin.com/in/founderandchiefproductofficer/" target="_blank">
+                        <img class="foot_icons" id="linkedin_icon" src ="/foot_icons/linkedin_icon.png">
+                    </a>
+                    <a class ="social_logos" href = "https://twitter.com/theonlykmac" target="_blank">
+                        <img class="foot_icons" id="twitter_icon" src ="/foot_icons/twitter_icon.png">
+                    </a>
+                </div>
+            </div> 
         </div>
-
-        </div>
-        <div class="footer"></div> 
         <!-- need to take care of footer stuff -->
         
         <script src="script.js" async defer></script>
