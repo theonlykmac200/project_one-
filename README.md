@@ -109,10 +109,8 @@ This section will feature some of the apps we're building in class and some plac
 
 - Weather App
 - Ryan Gosling Hay Girl Game
-- AI Advice Column
+- Match Game
 - Joke Teller
-- Picture in picture
-- Horoscope Generator from AI
 
 
 ## Contact 
