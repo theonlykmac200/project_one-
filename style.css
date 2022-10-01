@@ -13,7 +13,7 @@ body {
 .nav-links {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 95%;
     margin: auto;
     justify-content: flex-end;
     align-content: space-between;
@@ -44,10 +44,10 @@ body {
 .bandw {
     border-radius: 50%;
     display: flex;
-    flex-direction: row;
     height: 600px;
-    margin: 100px 0 50px 300px
-    
+    margin: 50px 50px 50px 10px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
  .skills {
     display: flex;
@@ -65,11 +65,13 @@ h3 {
     font-size: 36px;
     margin: 10px;
 }
-marquee, .skill-logos {
+.skill-logos {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 75px;
     justify-content: space-around;
+    width: 95%;
+    margin: 15px;
 }
 
 .about {
@@ -83,14 +85,27 @@ marquee, .skill-logos {
  
 
 }
+.headline-and-philo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 20px 5px 20px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 
 .flip-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    height: 600px;
-    width: 100%;
+    justify-items: space-around;
+    height: 500px;
+    width: 95%;
+    margin: 15px 15px 25px 15px;
   
 
 }
@@ -100,7 +115,7 @@ marquee, .skill-logos {
     flex-direction: row;
     height: 250px;
     width: 400px;
-    margin: auto;
+    margin: 10px;
     border: 1px solid black;
     background-color: rgb(3, 34, 91);
 }
@@ -120,13 +135,13 @@ marquee, .skill-logos {
 
 }
 
-.contact {
+.contact-wrap {
     height: 600px;
     width: 100%;
   
 }
 /* nead to fix contact portion */
-.contact {
+.contact, form {
     display: flex;
     flex-direction: row;
 }
@@ -134,15 +149,15 @@ marquee, .skill-logos {
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 200px;
     margin: 50px;
-    padding: 50px
+    height: 100px;
+    justify-content: space-between;
 }
 #name, #lname, #email, #phone {
     display: flex;
     flex-direction: column;
     height: 30px;
-    margin: 5px;
+    margin: 10px 10px 10px 10px;
     border: 2px solid black;
 }
 
@@ -151,7 +166,7 @@ marquee, .skill-logos {
     flex-direction: row;
     justify-content: center;
     height: 150px;
-    width: 700px;
+    width: 450px;
     margin: 50px
 
 }
@@ -168,10 +183,6 @@ h2 {
     justify-content: center;
     height: 250px;
     width: 30%;
-    margin-top: 150px;
-    font-size: 45px;
+    font-size: 55px;
 
 }
-
-/* media query work */
-

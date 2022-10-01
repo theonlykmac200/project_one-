@@ -6,7 +6,7 @@ const bannerChange = {
     curretHeadline: 0,
     headlines: [ "I am a Web Developer", "I am a Chief Product Officer", "I am a Tech Executive", "I am a Leader", "I am a Founder"],
     headline: function() {
-        document.getElementByID("headline").innerHTML = this.headlines[this.curretHeadline];
+        document.getElementByID("headline").innerText = this.headlines[this.curretHeadline];
         if (this.curretHeadline === this.headline.length - 1) {
             this.curretHeadline = 0;
         }else {
@@ -18,8 +18,10 @@ const bannerChange = {
 setInterval(function() {
     bannerChange.headline();
 }, 5000)
-
+// call the funtion and move inside might help look up how to call the function on pageload 
 console.log("currentHeadline")
+
+
 
 //get title working
 //get cards flipping

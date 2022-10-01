@@ -37,30 +37,33 @@
             <div class="skills">
                 <div class="headline">
                     <h3 id = "skills-headline">Skills</h3>
-                    <div class="skill-logos">
-                        <img id="html_logo" src ="/logos/Html5_logo.png">
-                        <marquee behavior="scroll" direction="left"><img id="Css_logo" src ="/logos/Css_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="JS_logo" src ="/logos/JS_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="PY_logo" src ="/logos/PY_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="Unity_logo" src ="/logos/Unity_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="VS_Code_logo" src ="/logos/VS_Code_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="Jira_logo" src ="/logos/Jira_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="Figma_logo" src ="/logos/Figma_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="Canva_logo" src ="/logos/Canva_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="Zapier_logo" src ="/logos/Zapier_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="AI_ML_Icon" src ="/logos/AI_ML_Icon.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="web3_icon" src ="/logos/Web3_icon.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="Hubspot_logo" src ="/logos/Hubspot_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="Salesforce_logo" src ="/logos/Salesforce_logo.png"></marquee>
-                        <marquee behavior="scroll" direction="left"><img id="500-startups" src = "/logos/500-primary.jpeg"></marquee>
-                    </div>
+                <div class="skill-logos">
+                    <img class="logos" id="html_logo" src ="/logos/Html5_logo.png">
+                    <img class="logos" id="Css_logo" src ="/logos/Css_logo.png">
+                    <img class="logos" id="JS_logo" src ="/logos/JS_logo.png">
+                    <img class="logos" id="PY_logo" src ="/logos/PY_logo.png">
+                    <img class="logos" id="Unity_logo" src ="/logos/Unity_logo.png">
+                    <img class="logos" id="VS_Code_logo" src ="/logos/VS_Code_logo.png">
+                    <img class="logos" id="Jira_logo" src ="/logos/Jira_logo.png">
+                    <img class="logos" id="Figma_logo" src ="/logos/Figma_logo.png">
+                    <img class="logos" id="Canva_logo" src ="/logos/Canva_logo.png">
+                    <img class="logos" id="Zapier_logo" src ="/logos/Zapier_logo.png">
+                    <img class="logos" id="AI_ML_Icon" src ="/logos/AI_ML_Icon.png">
+                    <img class="logos" id="web3_icon" src ="/logos/Web3_icon.png">
+                    <img class="logos" id="Hubspot_logo" src ="/logos/Hubspot_logo.png">
+                    <img class="logos" id="Salesforce_logo" src ="/logos/Salesforce_logo.png">
+                    <img class="logos" id="500-startups" src = "/logos/500-primary.jpeg">
                 </div>
             </div>
             <div class="about">
-                <h3 id="about-headline">About Kelly McDonald</h3>
-                <p class="philo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure magnam nihil alias explicabo rerum voluptate, fugit maiores ipsam repellat ad excepturi facilis, aperiam iusto minima, voluptas provident odio. Placeat, adipisci!</p>
-                <a id="bio">Executive Biography</a>
-                <a id="resume">Kelly's Resume</a>
+                <div class = "headline-and-philo">
+                    <h3 id="about-headline">About Kelly McDonald</h3>
+                    <p class="philo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure magnam nihil alias explicabo rerum voluptate, fugit maiores ipsam repellat ad excepturi facilis, aperiam iusto minima, voluptas provident odio. Placeat, adipisci!</p>
+                </div>
+                <div class="resume">
+                    <a id = "bio" href="/resumedocs/exec_bio.pdf" target="_blank">Executive Biography</a>
+                    <a id = "resume" href="/resumedocs/Kelly McDonald_Resume_GA Fall 2022.pdf" target="_blank">Kelly's Resume</a>
+                </div>  
             </div>
             <div class="flip-box">
                 <section class="flip-box-inner" id="proj_one">
@@ -97,26 +100,26 @@
                 </section>
             </div>
 
-            <div class="contact">
-                <!-- form powered by getform.io  *********** need to clear the form post click**************** -->
+        <div class="contact">
+            <!-- form powered by getform.io  *********** need to clear the form post click**************** -->
+            <div class = "contact-wrap">
                 <form action="https://getform.io/f/ead09102-d4fe-4197-b666-ac61b0f9e827" method="POST">
-                   <div class ="contact-form">
-                    <input id = #name placeholder = "First Name" type="text" name="name">
-                    <input id = #lname placeholder = "Last Name" type="text" name="last name">
-                    <input id = #email placeholder = "Email Address" type="email" name="email">
-                    <input id = #phone  placeholder = "Phone Number" type="text" name="phone">
-                   </div>
-                   <div class ="message-box">
-                    <input id= "message-box" type="text" name="message">
-                    <button type="submit">Send</button>
-                   </div>
-                    
+                    <div class ="contact-form">
+                        <input id = #name placeholder = "First Name" type="text" name="name">
+                        <input id = #lname placeholder = "Last Name" type="text" name="last name">
+                        <input id = #email placeholder = "Email Address" type="email" name="email">
+                        <input id = #phone  placeholder = "Phone Number" type="text" name="phone">
+                    </div>
+                    <div class ="message-box">
+                        <input id= "message-box" type="text" name="message">
+                        <button type="submit">Send</button>
+                    </div>  
                 </form>
-                
-              
-                <h2 id="contact-headline">Get In Touch!</h2>
-
             </div>
+            <div class = "contact-headline">
+                <h2 id="contact-headline">Get In Touch!</h2>
+            </div>
+        </div>
 
         </div>
         <div class="footer"></div> 
