@@ -43,7 +43,6 @@ body {
 }
 .wrapper {
     height: 100vh;
-    /*This part is important for centering*/
     display: grid;
     place-items: center;
   }
@@ -134,7 +133,6 @@ h3 {
     height: 500px;
     width: 95%;
     margin: 15px 15px 25px 15px;
-  
 
 }
 
@@ -143,32 +141,40 @@ h3 {
     flex-direction: row;
     height: 250px;
     width: 400px;
+    transform-style: preserve-3d;
+    transition: all .05 ease;
     margin: 10px;
-    border: 1px solid black;
+    border: 1px solid navy;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10%;
     background-color: rgb(3, 34, 91);
 }
-.flip-box-front {
+
+
+
+.flip-box-front, .flip-box-front1,.flip-box-front2,.flip-box-front3 {
     font-size: 22px;
     font-style: italic;
     color: azure;
-    margin: 10px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+   
 
 }
-
-.flip-box-back {
-    font-size: 22px;
-    font-style: italic;
-    color: azure;
-    margin: 10px;
-
+h5 {
+    text-align: center;
 }
+
+
 
 .contact-wrap {
     height: 500px;
     width: 100%;
   
 }
-/* nead to fix contact portion */
+
 .contact, form {
     display: flex;
     flex-direction: row;
