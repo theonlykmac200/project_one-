@@ -100,10 +100,4 @@ flipBoxInner3.addEventListener('mouseleave', function() {
 //    document.getElementById.("flip-box-back") =
 
 // }
-// //the front is hidden 
-    // the back is unhidden
-// When they click again
-    // the back is hidden
-    // the back is unhidden
-
 
