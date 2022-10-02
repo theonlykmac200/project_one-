@@ -25,7 +25,7 @@ flipBoxInner1.addEventListener('mouseover', function() {
 );
 flipBoxInner1.addEventListener('mouseleave', function() {
  //change back to the front
-    flipBoxInner1.textContent = "What's the weather like?";
+    flipBoxInner1.textContent = "How should I complain about the weather?";
     }
 );
 
