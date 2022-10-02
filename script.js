@@ -1,56 +1,20 @@
 
-// const bannerChange = {
-//     curretHeadline: 0,
-//     headlines: [ "I am a Web Developer", "I am a Chief Product Officer", "I am a Tech Executive", "I am a Leader", "I am a Founder"],
-//     headline: function() {
-//         document.getElementByID("headline").innerText = this.headlines[this.curretHeadline];
-//         if (this.curretHeadline === this.headline.length - 1) {
-//             this.curretHeadline = 0;
-//         }else {
-//             this.curretHeadline = this.curretHeadline + 1;
-//         }
-//     }
-    
-// };
-// setInterval(function() {
-//     bannerChange.headline();
-// }, 5000)
-// // call the funtion and move inside might help look up how to call the function on pageload 
-// console.log("currentHeadline")
-
-// apis started
 
 
-//  typing-demo array
- let typing_demo = ["I am a Web Developer", "I am a Chief Product Officer", "I am a Tech Executive", "I am a Leader"];
-// on window load, append the typed text to typing-demo class
-window.onload = function () {
- let i = 0;
- let timer = setInterval(function () {
-     document.getElementById("typing-demo").innerHTML = typing_demo[i];
-     i++;
-     if (i == typing_demo.length) {
-         i = 0;
-     }
- }, 3000);
-}
 
-// flipping cards 
+
+
+// Project Cards 
 //define the cards
-const project_card = document.getElementsByClassName("flip-box-inner") 
-//variable for the front of the card
-let front_card = document.getElementsByClassName("flip-box-front")
-// variable for the back of the card 
-let back_card = document.getElementsByClassName("flip-box-back")
-
 const flipBoxInner = document.querySelector(".flip-box-front")
 const flipBoxInner1 = document.querySelector(".flip-box-front1")
 const flipBoxInner2 = document.querySelector(".flip-box-front2")
 const flipBoxInner3 = document.querySelector(".flip-box-front3")
 
+// when someone hovers over the card flip to the back, when they move off of it, change it back to the title
 flipBoxInner.addEventListener('mouseover', function() {
     // change the text to "Click to flip"
-    flipBoxInner.textContent = 'A fun game featuring prompts and alerts.  Build in a single object & features Ryan Gossling; who provides postive affermations as players guesses the secret number';
+    flipBoxInner.textContent = 'A fun game featuring prompts and alerts.  Built in a single object & features Ryan Gossling; who provides postive affermations as players guesses the secret number';
     }
 );
 flipBoxInner.addEventListener('mouseleave', function() {
@@ -92,12 +56,7 @@ flipBoxInner3.addEventListener('mouseleave', function() {
     }
 );
 
+// if I have time come back and put in a loop to change out the box contents vs four difference event listeners
 
-// // when someone hovers the card 
-// project_card.addEventListener("click", flipCard); 
 
-// function flipCard() {
-//    document.getElementById.("flip-box-back") =
-
-// }
 
