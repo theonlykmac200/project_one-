@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;1,100&family=Bebas+Neue&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Permanent+Marker&family=Poiret+One&display=swap');
 
 body {
-    background-color: rgb(108, 144, 135);
+    background-color: rgb(119, 167, 152);
 }
 
 .nav, .footer {
@@ -156,8 +156,21 @@ h5 {
     text-align: center;
     font-size: 22px;
 }
+.git-profile {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 150px;
+    margin: auto;
+    background-color: orangered;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20%;
 
-
+}
+a:link {
+    color: whitesmoke;
+}
 
 .contact-wrap {
     height: 500px;
@@ -227,4 +240,12 @@ h2 {
     height: 50px;
     width: 50px;
     margin: auto;
+}
+#quote {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+    color: navy;
 }
