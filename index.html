@@ -18,11 +18,11 @@
         <![endif]-->
         <div class="nav">
             <div class="nav-links" id="hamburger-menu">
-                <a class="nav-links">Home</a>
-                <a class="nav-links">Skills</a>
-                <a class="nav-links">About</a>
-                <a class="nav-links">Projects</a>
-                <a class="nav-links">Contact</a>
+                <a class="nav-links" href="#">Home</a>
+                <a class="nav-links" href="#skills-headline">Skills</a>
+                <a class="nav-links" href="#about">About</a>
+                <a class="nav-links" href="#projects">Projects</a>
+                <a class="nav-links" href="#get-in-touch">Contact</a>
             </div>
         </div>
         <div class="main-container">
@@ -39,7 +39,7 @@
             </div>
             <div class="skills">
                 <div class="headline">
-                    <h3 id = "skills-headline">Skills</h3>
+                    <h3 id = "skills-headline"><a id = "skills-headline"></a>Skills</h3>
                 <div class="skill-logos">
                     <img class="logos" id="html_logo" src ="/logos/Html5_logo.png">
                     <img class="logos" id="Css_logo" src ="/logos/Css_logo.png">
@@ -60,7 +60,7 @@
             </div>
             <div class="about">
                 <div class = "headline-and-philo">
-                    <h3 id="about-headline">About Kelly McDonald</h3>
+                    <h3 id="about-headline"><a id = "about"></a>About Kelly McDonald</h3>
                     <p class="philo">An entrepreneur at heart, Kelly loves working on big problems at the earliest stages of a company. She is driven by her passion for the people she leads, and the journey toward the greater vision they share. Kelly's deep experience leading high growth revenue and operation teams prior to joining the techonlogy side of business gives her a unique insight to the needs of key stake holders. As a founder of a venture backed data intelligence company Kelly is always looking forward when it comes to techonlogy and has strong interests in AI/ML, Web3, Metaverse, Social Commerce and The Future of Work. </p>
                 </div>
                 <div class="resume">
@@ -68,7 +68,7 @@
                     <a id = "resume" href="/resumedocs/Kelly McDonald_Resume_GA Fall 2022.pdf" target="_blank">Kelly's Resume</a>
                 </div>  
             </div>
-            <div class="flip-box">
+            <div class="flip-box"><a id = "projects"></a>
                 <div class="flip-box-inner" id="proj_one">
                     <div class ="flip-box-front" id = "flip-box-front"><h5 id="flip-box-heading">Hey Girl! Guess My Number!</h5></div>
                 </div>
@@ -98,8 +98,9 @@
                     </form>
                 </div>
                 <div class = "contact-headline">
-                    <h2 id="contact-headline">Get In Touch!</h2>
+                    <h2 id="contact-headline"><a id = "get-in-touch"></a>Get In Touch!</h2>
                 </div>
+                
             </div>
             <div class="footer">
                 <div class="social_logos">
@@ -113,6 +114,11 @@
                         <img class="foot_icons" id="twitter_icon" src ="/foot_icons/twitter_icon.png">
                     </a>
                 </div>
+                <div id="quote">
+                    <h6 id="quote-today"></h6>Quote </h6>
+                    <h6 id="author">author</h6>
+                    <input type ="button" id="getNew" value="Refresh?">
+                </div>
             </div> 
         </div>
         <!--  h1 from documentation on https://github.com/mattboldt/typed.js/blob/master/README.md   -->
@@ -125,7 +131,6 @@
                 backSpeed: 150,
                 loop: true
             })
-        </script>
         </script>
     </body>
 </html>
