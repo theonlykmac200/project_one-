@@ -107,10 +107,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 This section will feature some of the apps we're building in class and some placeholders for what I'm working on outside of class.
 
-- Weather App
+- Should I complain about the weather? 
 - Ryan Gosling Hay Girl Game
-- Match Game
-- Joke Teller
+- Programmers Match Game
+- Joke Teller (Software Engineer version)
 
 
 ## Contact 
@@ -128,8 +128,7 @@ Inputs for:
 __git__
 __Linkenin__
 __Twitter__
-__Medium__
-__worldClock API__ / __quoteGenerator API__ / 
+__quoteGenerator API__ / 
 
 ## Technologies Used:
 - HTML5
@@ -147,4 +146,6 @@ This will be something fun or cool that I did that I'm proud of or was a big cha
 ## Issues and Resolutions
 
 - Github presented me with a few challeges early on with push and pulls that were human error but caused delays in project plan  Npt heavy delays, just wasted time figuring it out. 
+- Github pages didn't deploy and despite research on my own, unable to solve it.  Had to use a token to get help on this one. 
+
 
