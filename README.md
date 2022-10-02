@@ -109,10 +109,8 @@ This section will feature some of the apps we're building in class and some plac
 
 - Weather App
 - Ryan Gosling Hay Girl Game
-- AI Advice Column
+- Match Game
 - Joke Teller
-- Picture in picture
-- Horoscope Generator from AI
 
 
 ## Contact 
@@ -148,4 +146,5 @@ This will be something fun or cool that I did that I'm proud of or was a big cha
 
 ## Issues and Resolutions
 
-Any hiccups or major issues I encounter along the way.
+- Github presented me with a few challeges early on with push and pulls that were human error but caused delays in project plan  Npt heavy delays, just wasted time figuring it out. 
+
