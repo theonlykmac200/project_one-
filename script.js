@@ -20,7 +20,7 @@ flipBoxInner.addEventListener('mouseleave', function() {
 
 flipBoxInner1.addEventListener('mouseover', function() {
    //change text to backside of the card
-    flipBoxInner1.textContent = "Showcaseing the work with OpenWeather's Api this program tells the end-user what the weather is like for a particular named city";
+    flipBoxInner1.textContent = "Showcasing the work with OpenWeather's Api this program tells the end-user what the weather is like for a particular named city";
     }
 );
 flipBoxInner1.addEventListener('mouseleave', function() {
@@ -82,3 +82,28 @@ fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
 
 
 	.catch(err => console.error(err));
+
+    // function onSubmit(e) {
+    //     e.preventDefault();
+
+    //     const name =document.getElementById("name");
+    //     const lName = document.getElementById("lnane");
+    //     const email = document.getElementById("email");
+    //     const phone = document.getElementById("phone");
+    //     const mssg = document.getElementById("message-box")
+    //     const submitBtn =document.getElementById("submit");
+
+    //     name.innerText = "";
+    //     lName.innerText = "";
+    //     email.innerText = "";
+    //     phone.innerText = "";
+    //     mssg.innerText = "";
+
+    // }
+
+    document.addEventListener("submit", function(event) {
+        // event.preventDefault()
+
+        event.target.reset()
+
+    })
