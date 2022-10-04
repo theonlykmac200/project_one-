@@ -74,7 +74,7 @@ h3 {
     justify-content: center;
     font-size: 36px;
     margin: 10px;
-    color: navy;
+    color: navy
 }
 .skill-logos {
     display: flex;
@@ -266,7 +266,7 @@ h2 {
     }
 
     .bandw {
-        margin: 50px 50px 50px 40px;
+        margin: 50px 50px 50px 35px;
     }
     .headline-and-philo {
         height: 300px;
