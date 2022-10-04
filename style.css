@@ -264,25 +264,13 @@ h2 {
         height: 800px;
         width: 100%;
     }
-    .main-container{
-    }
-    .banner {
-    }
+
     .bandw {
         margin: 50px 50px 50px 50px;
-    }
-    .skills {
-    }
-    .logos {
-    }
-    
-    .about {
     }
     .headline-and-philo {
         height: 300px;
         font-size: small;
-    }
-    .resume {
     }
     .flip-box {
         display: flex;
@@ -294,17 +282,13 @@ h2 {
     .flip-box-inner {
         width: 300px
     }
-    .git-profile {
-        
     }
     .contact, form {
         display: flex;
         flex-direction: column;
     
     }
-    .contact-form {
-    
-    }
+
     #message-box {
        margin: auto;
     }
@@ -317,4 +301,4 @@ h2 {
     #quote {
         font-size: 0px;
     }
-  }
+  
