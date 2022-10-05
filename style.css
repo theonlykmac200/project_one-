@@ -20,6 +20,7 @@ body {
     justify-content: flex-end;
     align-content: space-between;
     color: navy;
+    text-decoration: none
 }
 
 .main-container {
@@ -110,6 +111,7 @@ h3 {
     flex-direction: row;
     justify-content: space-evenly;
     color: navy;
+    text-decoration: none
 }
 
 
@@ -131,10 +133,11 @@ h3 {
     transform-style: preserve-3d;
     transition: all .05 ease;
     margin: 10px;
-    border: 1px solid navy;
+    border: 1px solid rgb(141, 201, 178);
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10%;
-    background-color: rgb(3, 34, 91);
+    background-color: rgb(141, 201, 178);
+
     font-size: 22px;
 }
 
@@ -143,7 +146,7 @@ h3 {
 .flip-box-front, .flip-box-front1,.flip-box-front2,.flip-box-front3 {
     font-size: 22px;
     font-style: italic;
-    color: azure;
+    color: navy;
     margin: auto;
     padding: 10px;
     border-radius: 20%;
@@ -169,6 +172,7 @@ h5 {
 }
 a:link {
     color: whitesmoke;
+    text-decoration: none
 }
 
 .contact-wrap {
