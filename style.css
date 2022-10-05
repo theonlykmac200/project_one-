@@ -287,7 +287,7 @@ h2 {
     .flip-box-inner {
         width: 300px
     }
-    }
+    
     .contact, form {
         display: flex;
         flex-direction: column;
