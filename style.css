@@ -208,7 +208,7 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 150px;
+    height: 100px;
     width: 450px;
     margin: 50px;
     background-color: whitesmoke;
@@ -304,6 +304,8 @@ h2 {
        height: none;
     }
     #quote {
-        font-size: 2px;
+        font-size: 20px;
     }
-  
+
+}
+    
