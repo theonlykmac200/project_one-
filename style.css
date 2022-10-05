@@ -251,7 +251,7 @@ h2 {
     padding: 5px;
     font-size: 20px;
     color: navy;
-    height: 55px;
+    height: 35px;
 }
 
 
@@ -296,6 +296,7 @@ h2 {
 
     #message-box {
        margin: auto;
+       width: 95%
     }
     #get-in-touch, h2 {
         margin: auto;
@@ -304,7 +305,7 @@ h2 {
        height: none;
     }
     #quote {
-        font-size: 50px;
+        font-size: 20px;
     }
 
 }
