@@ -52,7 +52,7 @@ flipBoxInner3.addEventListener('mouseleave', function() {
 );
 
 
-// if I have time come back and put in a loop to change out the box contents vs four difference event listeners
+// when I have time come back and put in a loop to change out the box contents vs four difference event listeners
 
 const todayQuote = document.getElementById("quote-today");
 const whoSaidIt = document.getElementById("author");
@@ -83,23 +83,6 @@ fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
 
 	.catch(err => console.error(err));
 
-    // function onSubmit(e) {
-    //     e.preventDefault();
-
-    //     const name =document.getElementById("name");
-    //     const lName = document.getElementById("lnane");
-    //     const email = document.getElementById("email");
-    //     const phone = document.getElementById("phone");
-    //     const mssg = document.getElementById("message-box")
-    //     const submitBtn =document.getElementById("submit");
-
-    //     name.innerText = "";
-    //     lName.innerText = "";
-    //     email.innerText = "";
-    //     phone.innerText = "";
-    //     mssg.innerText = "";
-
-    // }
 
     document.addEventListener("submit", function(event) {
         // event.preventDefault()
