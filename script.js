@@ -59,7 +59,7 @@ const whoSaidIt = document.getElementById("author");
 const refreshBtn = document.getElementById("getNew");
 
 
-
+// quote of the day generator
 const options = {
 	method: 'GET',
 	headers: {
@@ -83,6 +83,7 @@ fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
 
 	.catch(err => console.error(err));
 
+// clear the form on send
 
     document.addEventListener("submit", function(event) {
         // event.preventDefault()
