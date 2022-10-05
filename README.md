@@ -111,6 +111,7 @@ This section will feature some of the apps we're building in class and some plac
 - Ryan Gosling Hay Girl Game
 - Programmers Match Game
 - Joke Teller (Software Engineer version)
+- 
 
 
 ## Contact 
@@ -138,14 +139,68 @@ __quoteGenerator API__ /
 ## Additional Libraries Used
 
 section will have any additonal resources used.
-
+my typed.js headline 
+Form submittion from getform.io which is free and awesome
 ## Code Snippet
 
-This will be something fun or cool that I did that I'm proud of or was a big challenge that I accomplished
+Doing the flip cards was a fun excercise and while it could use some DRY and refactoring I think it was quite a project figuing it how to best do it.  I started with trying to do it in Css with transitions and flipping the axis but it wasn't as simple as I wanted it to be and instead I decided to make this my Javascript element and used innertext to change what was in the box. 
+
+const flipBoxInner = document.querySelector(".flip-box-front");
+const flipBoxInner1 = document.querySelector(".flip-box-front1");
+const flipBoxInner2 = document.querySelector(".flip-box-front2");
+const flipBoxInner3 = document.querySelector(".flip-box-front3");
+
+// when someone hovers over the card flip to the back, when they move off of it, change it back to the title
+flipBoxInner.addEventListener('mouseover', function() {
+  //change text to backside of the card
+    flipBoxInner.textContent = "A fun game featuring prompts and alerts.  Built in a single object & features Ryan Gossling; who provides postive affermations as players guesses the secret number";   
+
+});
+flipBoxInner.addEventListener('mouseleave', function() {
+  //change back to the front
+    flipBoxInner.textContent = 'Hey Girl! Guess My Number!';
+    }
+);
+
+flipBoxInner1.addEventListener('mouseover', function() {
+   //change text to backside of the card
+    flipBoxInner1.textContent = "Showcasing the work with OpenWeather's Api this program tells the end-user what the weather is like for a particular named city";
+    }
+);
+flipBoxInner1.addEventListener('mouseleave', function() {
+ //change back to the front
+    flipBoxInner1.textContent = "How should I complain about the weather?";
+    }
+);
+
+flipBoxInner2.addEventListener('mouseover', function() {
+  //change text to backside of the card
+    flipBoxInner2.textContent = "Inspired by the classic children's game memory. Showcases work with Javascript and Randomization";
+    }
+);
+flipBoxInner2.addEventListener('mouseleave', function() {
+   //change back to the front
+    flipBoxInner2.textContent = "Programmers Memory Game";
+    }
+);
+
+flipBoxInner3.addEventListener('mouseover', function() {
+//change text to backside of the card
+    flipBoxInner3.textContent = "A surefire way to make you smile, this project worked with connecting APIs and sound controls";
+    }
+);
+flipBoxInner3.addEventListener('mouseleave', function() {
+//change back to the front
+    flipBoxInner3.textContent = "Joke Teller";
+    }
+);
+
+
 
 ## Issues and Resolutions
 
 - Github presented me with a few challeges early on with push and pulls that were human error but caused delays in project plan  Npt heavy delays, just wasted time figuring it out. 
 - Github pages didn't deploy and despite research on my own, unable to solve it.  Had to use a token to get help on this one. 
+- Almost went a little crazt because of an extra curly brace in the CSS today.  
 
 
