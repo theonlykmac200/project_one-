@@ -251,7 +251,7 @@ h2 {
     padding: 5px;
     font-size: 20px;
     color: navy;
-    height: 125px;
+    height: 55px;
 }
 
 
@@ -304,6 +304,6 @@ h2 {
        height: none;
     }
     #quote {
-        font-size: 20px;
+        font-size: 5px;
     }
   
